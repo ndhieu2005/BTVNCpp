@@ -20,7 +20,7 @@ void sum(int a[],int n)
 
 int main()
 {
-    int a[100];
+    int a[10];
     int n;
     cout<<"Nhập số phần tử của mảng:";
     cin>>n;
