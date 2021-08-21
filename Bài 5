@@ -1,0 +1,33 @@
+#include<math.h>
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+    int n;  // n
+    cout << "\nNhập n=";
+    cin >> n;
+    if (n<2)
+    {
+        cout << n <<"không phải là số nguyên tố\n";
+        return 0;
+    }
+    int count = 0;
+    for (int i=2;i<=sqrt(n);i++)
+    {
+    
+        if (n % i==0)
+        {
+            count++;
+        }
+            
+    }
+    if (count==0)
+    {
+        cout<<n<<"là số nguyên tố \n";
+    }
+    else
+    {
+        cout<<n<<"không là số nguyên tố\n";
+    }
+}
