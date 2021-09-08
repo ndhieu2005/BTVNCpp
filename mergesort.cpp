@@ -59,10 +59,10 @@ void Xuatmang(int a[],int size){
 int main(){
     int arr[] = { 12, 11, 13, 5, 6, 7 };
     int arr_size = sizeof(arr) /sizeof(arr[0]);
-    cout << "Hàm được cho \n";
+    cout << "Mảng được cho \n";
     Xuatmang(arr, arr_size);
     Mergesort(arr,0,arr_size -1);
-    cout << "\n Hàm đã được sắp xếp : \n";
+    cout << "\n Mảng đã được sắp xếp : \n";
     Xuatmang(arr, arr_size);
     return 0;
 }
