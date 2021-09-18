@@ -110,5 +110,8 @@ int main(){
     AddCol(arr, r, c);
     AddRow(arr, r, c);
     DelCol(arr, r, c);
+    int c1,c2,r1,r2;
+    ConvertCol(arr,r,c,c1,c2);
+    ConvertRow(arr,r,c,r1,r2);
     return 0;
 }
