@@ -30,6 +30,7 @@ void PrintPoint(vector<toado> point){
     for(int i=0;i<5;i++)
         cout << "("<<point[i].x<<";"<<point[i].y<<")";cout<<endl;
   //Bị lỗi chỗ này, a fix giúp em với:))))))))
+    //Thread 1: EXC_BAD_ACCESS (code=1, address=0x0)
 }
 int main(){
     vector<toado> point;
