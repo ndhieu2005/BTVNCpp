@@ -48,8 +48,8 @@ int main(){
         it = m.find(k);
         if(it == m.end())
             cout<<"No";
-        cout<<"Yes";
-        break;
+        else
+            cout<<"Yes";
     }
 
     return 0;
