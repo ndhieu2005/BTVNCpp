@@ -28,6 +28,7 @@ int main(){
     //Nhap mang so nguyen
     int array[100];
     int n;
+    cout <<"Nhap n:";
     cin >>n;
     for(int i=0;i<n;i++){
         cout<<"a["<<i<<"] :";
@@ -39,6 +40,16 @@ int main(){
     }
     for ( it =m.begin();it != m.end();it++){
         cout << it->first<<":"<<it->second<<endl;
+    }
+    char k;
+    cout<<"Nhap k:";
+    cin>>k;
+    for ( it =m.begin();it != m.end();it++){
+        it = m.find(k);
+        if(it == m.end())
+            cout<<"No";
+        cout<<"Yes";
+        break;
     }
 
     return 0;
