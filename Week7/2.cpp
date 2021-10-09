@@ -26,4 +26,4 @@ int main(){
     else
         cout<<"No";
     return 0;
-}
+//https://codeforces.com/problemset/problem/520/A
