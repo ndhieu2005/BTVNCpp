@@ -5,6 +5,8 @@ using namespace std;
 map<char,int> m;
 map<char,int> :: iterator it;
 int main(){
+    int s;
+    cin>>s;
     string str="";
     cin>>str;
     //Chuyển các chữ thành chữ in hoa để thao tác
